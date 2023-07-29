@@ -12,4 +12,4 @@ let numberOfSeniors = 1;
 let total = child * numberOfChilds + adult * numberOfAdults + senior * numberOfSeniors;
 
 // Print Total Price
-console.log(total);
+console.log("The total ticket price is " + total);

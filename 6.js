@@ -1,6 +1,6 @@
 let name = "Prakash";
 let email = "jbb0521@gmail.com";
-let age = 18;
+let age = '18';
 
 // console.log(typeof name);
 
@@ -17,7 +17,7 @@ if (email.includes(('*' || '$') || ('&' || '#'))) {
 } else if (email.includes('@gmail.com')) {
     console.log("Gmail Verify")
 } else {
-    console.log("Invalid Email Address")
+    console.log("Email should be string");
 }
 
 

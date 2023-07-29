@@ -7,4 +7,4 @@ let discountPercentage = 20;
 let payAmount = totalValue - totalValue / 100 * discountPercentage;
 
 
-console.log(payAmount);
+console.log("The final price after discount is: Rs." + payAmount);

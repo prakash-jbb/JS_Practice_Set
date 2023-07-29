@@ -1,14 +1,14 @@
-let typeOfPackage = "overnight";
+let typeOfPackage = "standard";
 
 switch (typeOfPackage) {
     case "standard":
-        console.log("3 to 5 Days");
+        console.log("Estimated delivery time: 3 to 5 Days");
         break;
     case "express":
-        console.log("1 to 2 Days");
+        console.log("Estimated delivery time: 1 to 2 Days");
         break;
     case "overnight":
-        console.log("Next Day");
+        console.log("Estimated delivery time: Next Day");
         break;
     default:
         console.log("Invalid type of package");

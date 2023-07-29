@@ -6,7 +6,7 @@ for (x in list) {
     let result = typeof list[x];
 
     if (result === "string") {
-        console.log("Fond The First String:", list[x]);
+        console.log("Found The First String:", list[x]);
         break;
 
     }
